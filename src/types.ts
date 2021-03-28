@@ -6,3 +6,10 @@ export interface Food {
   available: boolean;
   image: string;
 }
+
+export interface FoodDTO {
+  name: string;
+  description: string;
+  price: string;
+  image: string;
+}
