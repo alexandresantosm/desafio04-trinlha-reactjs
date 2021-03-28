@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FiEdit3, FiTrash } from 'react-icons/fi';
 
-import api from '../../services/api';
+import { api } from '../../services/api';
 import { Food as FoodType } from '../../types';
 
 import { Container } from './styles';
